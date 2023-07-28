@@ -1,9 +1,0 @@
-- EXTRATO DIO BANK - 
-Valor depositado: R$255.00
-TOTAL: 255.00
-Valor depositado: R$658.00
-TOTAL: 913.00
-Valor sacado: R$358.00
-TOTAL: 555.00
-Valor sacado: R$17.00
-TOTAL: 538.00
