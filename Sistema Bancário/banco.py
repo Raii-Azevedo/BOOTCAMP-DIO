@@ -31,7 +31,7 @@ def saque(T, NumS):
 
 def extrato(numero_conta, caixa, T, operacao_desc, cliente):
     nome_arquivo = f'{numero_conta}.txt'
-    with open(nome_arquivo, 'a') as file:
+    with open(nome_arquivo, 'a', encoding='utf-8') as file:
         if file.tell() == 0:  # Verifica se o arquivo está vazio
             # Adiciona a informação no topo
             file.write(f'- EXTRATO DIO BANK - \nConta: {numero_conta} - \n')
