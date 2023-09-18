@@ -18,3 +18,7 @@ def get_user(id):
 users = [user for id in user_ids if (user := get_user(id)) is not None] # Compreensão de listas
 
 print (json.dumps(users, indent= 2))
+
+openai_api_key = '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'
+
+
