@@ -25,7 +25,7 @@ def get_user(id):
 users = [user for id in user_ids if (user := get_user(id)) is not None]  # Compreensão de listas
 
 # INTEGRAÇÃO COM O CHAT GPT
-chave_api = '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'
+chave_api = 'Sua_secret_key_aqui'
 
 openai.api_key = chave_api
 
